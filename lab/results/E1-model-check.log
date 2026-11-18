@@ -1,0 +1,64 @@
+TLC2 Version 2026.11.15.002146 (rev: bc1b506)
+Running breadth-first search Model-Checking with fp 74 and seed -4930096631808174266 with 16 workers on 20 cores with 7282MB heap and 64MB offheap memory [pid: 36148] (Windows 11 10.0 amd64, Oracle Corporation 25.0.1 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Formal Verification\etcd-raft\tla\MCetcdraft.tla
+Parsing file D:\Formal Verification\etcd-raft\tla\etcdraft.tla
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\_TLCTrace.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Naturals.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Integers.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Bags.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\FiniteSets.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Sequences.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\SequencesExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/SequencesExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\FiniteSetsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\BagsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/BagsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\TLC.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Folds.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Folds.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\Functions.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Functions.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-13991544703633370316\TLCExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Bags
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Folds
+Semantic processing of module Functions
+Semantic processing of module FiniteSetsExt
+Semantic processing of module TLC
+Semantic processing of module SequencesExt
+Semantic processing of module BagsExt
+Semantic processing of module etcdraft
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module MCetcdraft
+Linting of module Folds
+Linting of module Functions
+Linting of module FiniteSetsExt
+Linting of module SequencesExt
+Linting of module BagsExt
+Linting of module etcdraft
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module MCetcdraft
+Starting... (2026-11-18 18:59:42)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-18 18:59:43.
+Progress(11) at 2026-11-18 18:59:46: 90,849 states generated (90,849 s/min), 20,630 distinct states found (20,630 ds/min), 15,184 states left on queue.
+Progress(13) at 2026-11-18 19:00:46: 1,902,595 states generated (1,811,746 s/min), 398,337 distinct states found (377,707 ds/min), 289,194 states left on queue.
+Progress(14) at 2026-11-18 19:01:46: 6,148,311 states generated (4,245,716 s/min), 1,254,695 distinct states found (856,358 ds/min), 907,372 states left on queue.
+Progress(14) at 2026-11-18 19:02:46: 11,127,629 states generated (4,979,318 s/min), 2,238,379 distinct states found (983,684 ds/min), 1,614,899 states left on queue.
+Progress(14) at 2026-11-18 19:03:46: 13,009,438 states generated (1,881,809 s/min), 2,602,472 distinct states found (364,093 ds/min), 1,875,770 states left on queue.
+Progress(15) at 2026-11-18 19:04:46: 14,931,001 states generated (1,921,563 s/min), 2,978,660 distinct states found (376,188 ds/min), 2,145,524 states left on queue.
+Progress(15) at 2026-11-18 19:05:46: 17,715,023 states generated (2,784,022 s/min), 3,524,216 distinct states found (545,556 ds/min), 2,539,266 states left on queue.
+Progress(15) at 2026-11-18 19:06:46: 26,196,943 states generated (8,481,920 s/min), 5,170,854 distinct states found (1,646,638 ds/min), 3,727,550 states left on queue.
+Progress(15) at 2026-11-18 19:07:46: 28,649,723 states generated (2,452,780 s/min), 5,642,665 distinct states found (471,811 ds/min), 4,067,324 states left on queue.
+Progress(15) at 2026-11-18 19:08:46: 30,590,255 states generated (1,940,532 s/min), 6,026,998 distinct states found (384,333 ds/min), 4,343,807 states left on queue.
+Progress(15) at 2026-11-18 19:09:46: 33,711,238 states generated (3,120,983 s/min), 6,626,858 distinct states found (599,860 ds/min), 4,775,221 states left on queue.
+Progress(15) at 2026-11-18 19:10:46: 37,755,979 states generated (4,044,741 s/min), 7,387,218 distinct states found (760,360 ds/min), 5,316,122 states left on queue.
+Progress(15) at 2026-11-18 19:11:46: 42,300,087 states generated (4,544,108 s/min), 8,250,462 distinct states found (863,244 ds/min), 5,931,411 states left on queue.
+Progress(15) at 2026-11-18 19:12:46: 46,625,812 states generated (4,325,725 s/min), 9,063,043 distinct states found (812,581 ds/min), 6,511,713 states left on queue.
+Progress(15) at 2026-11-18 19:13:46: 51,002,759 states generated (4,376,947 s/min), 9,883,989 distinct states found (820,946 ds/min), 7,100,222 states left on queue.
+Progress(16) at 2026-11-18 19:14:46: 55,095,101 states generated (4,092,342 s/min), 10,677,903 distinct states found (793,914 ds/min), 7,669,531 states left on queue.
+Progress(16) at 2026-11-18 19:15:46: 59,370,793 states generated (4,275,692 s/min), 11,494,924 distinct states found (817,021 ds/min), 8,257,156 states left on queue.
+Progress(16) at 2026-11-18 19:16:46: 63,786,619 states generated (4,415,826 s/min), 12,335,388 distinct states found (840,464 ds/min), 8,861,894 states left on queue.
+Progress(16) at 2026-11-18 19:17:46: 69,534,899 states generated (5,748,280 s/min), 13,423,695 distinct states found (1,088,307 ds/min), 9,646,120 states left on queue.
+Progress(16) at 2026-11-18 19:18:46: 75,795,295 states generated (6,260,396 s/min), 14,629,034 distinct states found (1,205,339 ds/min), 10,515,084 states left on queue.

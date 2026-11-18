@@ -1,0 +1,166 @@
+TLC2 Version 2026.11.15.002146 (rev: bc1b506)
+Running breadth-first search Model-Checking with fp 117 and seed -2613773851902257021 with 1 worker on 20 cores with 5397MB heap and 64MB offheap memory [pid: 29356] (Windows 11 10.0 amd64, Oracle Corporation 25.0.1 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Formal Verification\etcd-raft\tla\Traceetcdraft.tla
+Parsing file D:\Formal Verification\etcd-raft\tla\etcdraft.tla
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Json.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Json.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\IOUtils.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/IOUtils.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Sequences.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\TLC.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\_TLCTrace.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Naturals.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Integers.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Bags.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\FiniteSets.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\SequencesExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/SequencesExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\FiniteSetsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\BagsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/BagsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Folds.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Folds.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\Functions.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Functions.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-6380393033834628454\TLCExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Bags
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Folds
+Semantic processing of module Functions
+Semantic processing of module FiniteSetsExt
+Semantic processing of module TLC
+Semantic processing of module SequencesExt
+Semantic processing of module BagsExt
+Semantic processing of module etcdraft
+Semantic processing of module Json
+Semantic processing of module IOUtils
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Traceetcdraft
+Linting of module Folds
+Linting of module Functions
+Linting of module FiniteSetsExt
+Linting of module SequencesExt
+Linting of module BagsExt
+Linting of module etcdraft
+Linting of module Json
+Linting of module IOUtils
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Traceetcdraft
+Starting... (2026-11-18 19:21:40)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-18 19:21:44.
+<<"Progress %:", 1>>
+<<"Progress %:", 2>>
+Progress(51) at 2026-11-18 19:21:47: 51 states generated (51 s/min), 51 distinct states found (51 ds/min), 0 states left on queue.
+<<"Progress %:", 3>>
+<<"Progress %:", 4>>
+<<"Progress %:", 5>>
+<<"Progress %:", 6>>
+<<"Progress %:", 7>>
+<<"Progress %:", 8>>
+<<"Progress %:", 9>>
+<<"Progress %:", 10>>
+<<"Progress %:", 11>>
+<<"Progress %:", 12>>
+<<"Progress %:", 13>>
+<<"Progress %:", 14>>
+<<"Progress %:", 15>>
+<<"Progress %:", 16>>
+<<"Progress %:", 17>>
+<<"Progress %:", 18>>
+<<"Progress %:", 19>>
+<<"Progress %:", 20>>
+<<"Progress %:", 21>>
+<<"Progress %:", 22>>
+<<"Progress %:", 23>>
+<<"Progress %:", 24>>
+<<"Progress %:", 25>>
+<<"Progress %:", 26>>
+<<"Progress %:", 27>>
+<<"Progress %:", 28>>
+<<"Progress %:", 29>>
+<<"Progress %:", 30>>
+<<"Progress %:", 31>>
+<<"Progress %:", 32>>
+<<"Progress %:", 33>>
+<<"Progress %:", 34>>
+<<"Progress %:", 35>>
+<<"Progress %:", 36>>
+<<"Progress %:", 37>>
+<<"Progress %:", 38>>
+<<"Progress %:", 39>>
+<<"Progress %:", 40>>
+<<"Progress %:", 41>>
+<<"Progress %:", 42>>
+<<"Progress %:", 43>>
+<<"Progress %:", 44>>
+<<"Progress %:", 45>>
+<<"Progress %:", 46>>
+<<"Progress %:", 47>>
+<<"Progress %:", 48>>
+<<"Progress %:", 49>>
+Progress(1029) at 2026-11-18 19:22:47: 1,059 states generated (1,008 s/min), 1,029 distinct states found (978 ds/min), 0 states left on queue.
+<<"Progress %:", 50>>
+<<"Progress %:", 51>>
+<<"Progress %:", 52>>
+<<"Progress %:", 53>>
+<<"Progress %:", 54>>
+<<"Progress %:", 55>>
+<<"Progress %:", 56>>
+<<"Progress %:", 57>>
+<<"Progress %:", 58>>
+<<"Progress %:", 59>>
+<<"Progress %:", 60>>
+<<"Progress %:", 61>>
+<<"Progress %:", 62>>
+<<"Progress %:", 63>>
+<<"Progress %:", 64>>
+<<"Progress %:", 65>>
+<<"Progress %:", 66>>
+<<"Progress %:", 67>>
+<<"Progress %:", 68>>
+<<"Progress %:", 69>>
+<<"Progress %:", 70>>
+<<"Progress %:", 71>>
+<<"Progress %:", 72>>
+<<"Progress %:", 73>>
+<<"Progress %:", 74>>
+<<"Progress %:", 75>>
+<<"Progress %:", 76>>
+<<"Progress %:", 77>>
+Progress(1578) at 2026-11-18 19:23:47: 1,618 states generated (559 s/min), 1,578 distinct states found (549 ds/min), 0 states left on queue.
+<<"Progress %:", 78>>
+<<"Progress %:", 79>>
+<<"Progress %:", 80>>
+<<"Progress %:", 81>>
+<<"Progress %:", 82>>
+<<"Progress %:", 83>>
+<<"Progress %:", 84>>
+<<"Progress %:", 85>>
+<<"Progress %:", 86>>
+<<"Progress %:", 87>>
+<<"Progress %:", 88>>
+<<"Progress %:", 89>>
+<<"Progress %:", 90>>
+<<"Progress %:", 91>>
+<<"Progress %:", 92>>
+<<"Progress %:", 93>>
+<<"Progress %:", 94>>
+<<"Progress %:", 95>>
+<<"Progress %:", 96>>
+<<"Progress %:", 97>>
+<<"Progress %:", 98>>
+<<"Progress %:", 99>>
+<<"Progress %:", 100>>
+<<"Progress %:", 100>>
+Progress(2040) at 2026-11-18 19:24:30: 2,082 states generated, 2,040 distinct states found, 0 states left on queue.
+Checking temporal properties for the complete state space with 2040 total distinct states at (2026-11-18 19:24:30)
+Finished checking temporal properties in 00s at 2026-11-18 19:24:30
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 4.6E-15
+2082 states generated, 2040 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 2040.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
+Finished in 02min 50s at (2026-11-18 19:24:30)

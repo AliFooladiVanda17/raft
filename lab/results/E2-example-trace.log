@@ -1,0 +1,116 @@
+TLC2 Version 2026.11.15.002146 (rev: bc1b506)
+Running breadth-first search Model-Checking with fp 60 and seed 1824308512013465872 with 1 worker on 20 cores with 5397MB heap and 64MB offheap memory [pid: 19380] (Windows 11 10.0 amd64, Oracle Corporation 25.0.1 64bit, MSBDiskFPSet, DiskStateQueue).
+Parsing file D:\Formal Verification\etcd-raft\tla\Traceetcdraft.tla
+Parsing file D:\Formal Verification\etcd-raft\tla\etcdraft.tla
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Json.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Json.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\IOUtils.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/IOUtils.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Sequences.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\TLC.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\_TLCTrace.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Naturals.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Integers.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Bags.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/Bags.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\FiniteSets.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\SequencesExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/SequencesExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\FiniteSetsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/FiniteSetsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\BagsExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/BagsExt.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Folds.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Folds.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\Functions.tla (jar:file:/D:/Formal%20Verification/tools/tla/CommunityModules-deps-202611060952.jar!/Functions.tla)
+Parsing file C:\Users\Lenovo\AppData\Local\Temp\tlc-8680310513356481884\TLCExt.tla (jar:file:/D:/Formal%20Verification/tools/tla/tla2tools-1.8.0.jar!/tla2sany/StandardModules/TLCExt.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Bags
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Folds
+Semantic processing of module Functions
+Semantic processing of module FiniteSetsExt
+Semantic processing of module TLC
+Semantic processing of module SequencesExt
+Semantic processing of module BagsExt
+Semantic processing of module etcdraft
+Semantic processing of module Json
+Semantic processing of module IOUtils
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Traceetcdraft
+Linting of module Folds
+Linting of module Functions
+Linting of module FiniteSetsExt
+Linting of module SequencesExt
+Linting of module BagsExt
+Linting of module etcdraft
+Linting of module Json
+Linting of module IOUtils
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Traceetcdraft
+Starting... (2026-11-18 18:49:16)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-18 18:49:29.
+Progress(9) at 2026-11-18 18:49:32: 9 states generated (9 s/min), 9 distinct states found (9 ds/min), 0 states left on queue.
+<<"Progress %:", 0>>
+<<"Progress %:", 1>>
+<<"Progress %:", 2>>
+<<"Progress %:", 3>>
+<<"Progress %:", 4>>
+Progress(286) at 2026-11-18 18:50:33: 294 states generated (285 s/min), 286 distinct states found (277 ds/min), 0 states left on queue.
+<<"Progress %:", 5>>
+<<"Progress %:", 6>>
+<<"Progress %:", 7>>
+<<"Progress %:", 8>>
+Progress(497) at 2026-11-18 18:51:33: 512 states generated (218 s/min), 497 distinct states found (211 ds/min), 0 states left on queue.
+<<"Progress %:", 9>>
+<<"Progress %:", 10>>
+<<"Progress %:", 11>>
+<<"Progress %:", 12>>
+Progress(676) at 2026-11-18 18:52:33: 693 states generated (181 s/min), 676 distinct states found (179 ds/min), 0 states left on queue.
+<<"Progress %:", 13>>
+<<"Progress %:", 14>>
+<<"Progress %:", 15>>
+Progress(801) at 2026-11-18 18:53:33: 820 states generated (127 s/min), 801 distinct states found (125 ds/min), 0 states left on queue.
+<<"Progress %:", 16>>
+<<"Progress %:", 17>>
+<<"Progress %:", 18>>
+Progress(950) at 2026-11-18 18:54:33: 977 states generated (157 s/min), 950 distinct states found (149 ds/min), 0 states left on queue.
+<<"Progress %:", 19>>
+<<"Progress %:", 20>>
+Progress(1074) at 2026-11-18 18:55:34: 1,105 states generated (128 s/min), 1,074 distinct states found (124 ds/min), 0 states left on queue.
+<<"Progress %:", 21>>
+<<"Progress %:", 22>>
+<<"Progress %:", 23>>
+Progress(1206) at 2026-11-18 18:56:34: 1,242 states generated (137 s/min), 1,206 distinct states found (132 ds/min), 0 states left on queue.
+<<"Progress %:", 24>>
+<<"Progress %:", 25>>
+Progress(1323) at 2026-11-18 18:57:34: 1,363 states generated (121 s/min), 1,323 distinct states found (117 ds/min), 0 states left on queue.
+<<"Progress %:", 26>>
+<<"Progress %:", 27>>
+Progress(1391) at 2026-11-18 18:58:34: 1,430 states generated (67 s/min), 1,391 distinct states found (68 ds/min), 0 states left on queue.
+<<"Progress %:", 28>>
+Progress(1459) at 2026-11-18 18:59:34: 1,498 states generated (68 s/min), 1,459 distinct states found (68 ds/min), 0 states left on queue.
+<<"Progress %:", 29>>
+Progress(1491) at 2026-11-18 19:00:36: 1,530 states generated (32 s/min), 1,491 distinct states found (32 ds/min), 1 states left on queue.
+<<"Progress %:", 30>>
+Progress(1534) at 2026-11-18 19:01:36: 1,573 states generated (43 s/min), 1,534 distinct states found (43 ds/min), 0 states left on queue.
+<<"Progress %:", 31>>
+Progress(1603) at 2026-11-18 19:02:37: 1,643 states generated (70 s/min), 1,603 distinct states found (69 ds/min), 1 states left on queue.
+<<"Progress %:", 32>>
+Progress(1624) at 2026-11-18 19:03:40: 1,664 states generated (21 s/min), 1,624 distinct states found (21 ds/min), 0 states left on queue.
+Progress(1645) at 2026-11-18 19:04:43: 1,685 states generated (21 s/min), 1,645 distinct states found (21 ds/min), 0 states left on queue.
+<<"Progress %:", 33>>
+Progress(1671) at 2026-11-18 19:05:43: 1,713 states generated (28 s/min), 1,671 distinct states found (26 ds/min), 0 states left on queue.
+<<"Progress %:", 34>>
+Progress(1766) at 2026-11-18 19:06:44: 1,808 states generated (95 s/min), 1,766 distinct states found (95 ds/min), 1 states left on queue.
+<<"Progress %:", 35>>
+Progress(1791) at 2026-11-18 19:07:46: 1,833 states generated (25 s/min), 1,791 distinct states found (25 ds/min), 0 states left on queue.
+Progress(1810) at 2026-11-18 19:08:47: 1,852 states generated (19 s/min), 1,810 distinct states found (19 ds/min), 0 states left on queue.
+<<"Progress %:", 36>>
+Progress(1838) at 2026-11-18 19:09:49: 1,880 states generated (28 s/min), 1,838 distinct states found (28 ds/min), 0 states left on queue.
+<<"Progress %:", 37>>
+Progress(1869) at 2026-11-18 19:10:50: 1,911 states generated (31 s/min), 1,869 distinct states found (31 ds/min), 1 states left on queue.
+Progress(1902) at 2026-11-18 19:11:51: 1,944 states generated (33 s/min), 1,902 distinct states found (33 ds/min), 1 states left on queue.
+<<"Progress %:", 38>>
+Progress(1937) at 2026-11-18 19:12:51: 1,979 states generated (35 s/min), 1,937 distinct states found (35 ds/min), 0 states left on queue.
+<<"Progress %:", 39>>
+Progress(1971) at 2026-11-18 19:13:52: 2,013 states generated (34 s/min), 1,971 distinct states found (34 ds/min), 0 states left on queue.
